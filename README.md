@@ -12,3 +12,7 @@ Usage:
 ```
 c:\git\hl7\fhir-core-spec> mapping-exceptions-winfix
 ```
+
+The tool will do nothing if it is run in a folder that does not contain a git repo with a parent of the FHIR source repo.
+(https://github.com/HL7/fhir.git)
+And only updates files that are already checked out in the local folder.
