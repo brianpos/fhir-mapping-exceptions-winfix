@@ -10,9 +10,30 @@ It is intended to be run after the FHIR build process has completed before commi
 
 Usage:
 ```
-c:\git\hl7\fhir-core-spec> mapping-exceptions-winfix
+c:\git\hl7\fhir-core-spec> fhir-mapping-exceptions-winfix
+
+FHIR Core Specification mapping-exceptions.xml re-writer
+correcting line endings for c:\git\hl7\fhir-core-spec\source\account\account-fivews-mapping-exceptions.xml ModifiedInWorkdir
+correcting line endings for c:\git\hl7\fhir-core-spec\source\activitydefinition\activitydefinition-definition-mapping-exceptions.xml ModifiedInWorkdir
+correcting line endings for c:\git\hl7\fhir-core-spec\source\activitydefinition\activitydefinition-fivews-mapping-exceptions.xml ModifiedInWorkdir
+correcting line endings for c:\git\hl7\fhir-core-spec\source\actordefinition\actordefinition-fivews-mapping-exceptions.xml ModifiedInWorkdir
+correcting line endings for c:\git\hl7\fhir-core-spec\source\administrableproductdefinition\administrableproductdefinition-fivews-mapping-exceptions.xml ModifiedInWorkdir
+...
 ```
 
 The tool will do nothing if it is run in a folder that does not contain a git repo with a parent of the FHIR source repo.
 (https://github.com/HL7/fhir.git)
 And only updates files that are already checked out in the local folder.
+
+
+### Installation
+This is a dotnet global tool, so it can be installed with the following command:
+```
+dotnet tool install -g fhir-mapping-exceptions-winfix
+```
+
+### Uninstall
+To uninstall the tool, use the following command:
+```
+dotnet tool uninstall -g fhir-mapping-exceptions-winfix
+```
