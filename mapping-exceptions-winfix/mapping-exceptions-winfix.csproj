@@ -10,7 +10,25 @@
     <Title>FHIR Core Specification </Title>
     <Authors>brian_pos</Authors>
     <Company>Brian Postlethwaite</Company>
+    <PackageProjectUrl>https://github.com/brianpos/fhir-mapping-exceptions-winfix</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/brianpos/fhir-mapping-exceptions-winfix</RepositoryUrl>
+    <PackAsTool>True</PackAsTool>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="LibGit2Sharp" Version="0.30.0" />
