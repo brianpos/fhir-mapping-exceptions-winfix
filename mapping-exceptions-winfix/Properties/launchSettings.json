@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "mapping-exceptions-winfix": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\git\\hl7\\fhir-core-build"
+    }
+  }
+}
