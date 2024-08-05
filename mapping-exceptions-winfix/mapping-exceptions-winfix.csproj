@@ -7,7 +7,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>FHIR Core Specification </Title>
+    <Title>FHIR Core Specification Mapping Exceptions fixer</Title>
     <Authors>brian_pos</Authors>
     <Company>Brian Postlethwaite</Company>
     <PackageProjectUrl>https://github.com/brianpos/fhir-mapping-exceptions-winfix</PackageProjectUrl>
@@ -17,6 +17,9 @@
     <AssemblyVersion>0.1.0.0</AssemblyVersion>
     <FileVersion>0.1.0.0</FileVersion>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <ToolCommandName>fhir-mapping-exceptions-winfix</ToolCommandName>
+    <PackageId>fhir-mapping-exceptions-winfix</PackageId>
+    <Description>A small utility for contributors to help manage the FHIR core specification source `*.mapping-exceptions.xml` files</Description>
   </PropertyGroup>
 
   <ItemGroup>
