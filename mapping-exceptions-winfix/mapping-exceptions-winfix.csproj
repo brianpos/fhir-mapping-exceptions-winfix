@@ -14,8 +14,8 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/brianpos/fhir-mapping-exceptions-winfix</RepositoryUrl>
     <PackAsTool>True</PackAsTool>
-    <AssemblyVersion>0.1.0.0</AssemblyVersion>
-    <FileVersion>0.1.0.0</FileVersion>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
+    <FileVersion>0.2.0.0</FileVersion>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <ToolCommandName>fhir-mapping-exceptions-winfix</ToolCommandName>
     <PackageId>fhir-mapping-exceptions-winfix</PackageId>
