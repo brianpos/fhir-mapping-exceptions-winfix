@@ -9,7 +9,8 @@ var repoRootPath = System.IO.Directory.GetCurrentDirectory();
 using (var repo = new Repository(repoRootPath))
 {
 	// Ensure that this is the FHIR Core spec repo
-	if (!repo.Network.Remotes.Any(r => r.Url == "https://github.com/HL7/fhir.git"))
+	if (!repo.Network.Remotes.Any(r => r.Url.Equals("https://github.com/HL7/fhir.git", StringComparison.OrdinalIgnoreCase)) && 
+	    !repo.Network.Remotes.Any(r => r.Url.Equals("https://github.com/HL7/fhir", StringComparison.OrdinalIgnoreCase)))
 	{
 		Console.WriteLine($"This directory does not appear to contain a FHIR Core specification git repository.");
 		return -1;
